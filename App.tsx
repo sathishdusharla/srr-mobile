@@ -300,7 +300,7 @@ export default function App() {
       const basePrice = selectedVol === '500ml' ? 1299 : selectedVol === '1 Liter' ? 2499 : 11999;
       const finalPrice = isSub ? Math.floor(basePrice * 0.9) : basePrice;
       const typeLabel = isSub ? 'Subscription Auto-ship' : 'One-time Purchase';
-      return `https://wa.me/919999999999?text=${encodeURIComponent(
+      return `https://wa.me/919948233702?text=${encodeURIComponent(
         `Hello Team SRR Farms, I would like to place an order for the ${selectedVol} jar of Pure A2 Desi Cow Ghee (${typeLabel} at ₹${finalPrice}). Please share payment details.`
       )}`;
     }
@@ -309,7 +309,7 @@ export default function App() {
       .map(item => `- ${item.name} (${item.volume}) x ${item.qty} (₹${(item.price * item.qty).toLocaleString()})`)
       .join('\n');
     const fullText = `Hello Team SRR Farms, I would like to place an order via WhatsApp.\n\nItems in my cart:\n${itemsText}\n\nSubtotal: ₹${cartSubtotal.toLocaleString()}\n\nPlease guide me with the payment and delivery details.`;
-    return `https://wa.me/919999999999?text=${encodeURIComponent(fullText)}`;
+    return `https://wa.me/919948233702?text=${encodeURIComponent(fullText)}`;
   };
 
   const handleGoogleSignIn = async () => {
