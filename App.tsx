@@ -653,6 +653,9 @@ export default function App() {
               <Text style={styles.footerTeamText}>SRR Farms Heritage Churning Hubs</Text>
               <Text style={styles.teamSignature}>Team SRR Farms</Text>
               <Text style={styles.teamTitle}>Heritage Custodians</Text>
+              <Text style={[styles.teamTitle, { color: '#C5A059', marginTop: 8, fontWeight: 'bold' }]}>
+                Developed by Sathish Dusharla
+              </Text>
             </View>
           </View>
         )}
