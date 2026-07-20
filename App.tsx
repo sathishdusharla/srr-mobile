@@ -901,6 +901,13 @@ export default function App() {
                   ))
                 )}
 
+                {/* Developer Credit */}
+                <View style={{ marginTop: 24, marginBottom: 12, alignItems: 'center' }}>
+                  <Text style={{ color: '#C5A059', fontSize: 11, fontWeight: 'bold', letterSpacing: 0.5 }}>
+                    Developed by Sathish Dusharla
+                  </Text>
+                </View>
+
                 <TouchableOpacity style={styles.logoutBtn} onPress={() => setIsLoggedIn(false)}>
                   <LogOut size={16} color="#ef4444" />
                   <Text style={styles.logoutText}>Sign Out</Text>
