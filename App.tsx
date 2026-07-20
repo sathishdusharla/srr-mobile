@@ -1155,7 +1155,7 @@ export default function App() {
                     style={{ backgroundColor: '#05070B', borderColor: 'rgba(226, 228, 233, 0.12)', borderWidth: 1, borderRadius: 8, color: '#fff', fontSize: 13, paddingHorizontal: 12, paddingVertical: 10 }}
                     value={shippingPhone}
                     onChangeText={setShippingPhone}
-                    placeholder="e.g. +91 99999 99999"
+                    placeholder="e.g. +91 99482 33702"
                     placeholderTextColor="rgba(226, 228, 233, 0.2)"
                     keyboardType="phone-pad"
                   />
