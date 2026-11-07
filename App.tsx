@@ -1180,7 +1180,7 @@ export default function App() {
                 </View>
               </View>
 
-              <View style={{ borderTopWidth: 1, borderTopColor: 'rgba(226, 228, 233, 0.05)', pt: 16, marginTop: 12 }}>
+              <View style={{ borderTopWidth: 1, borderTopColor: 'rgba(226, 228, 233, 0.05)', paddingTop: 16, marginTop: 12 }}>
                 <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginBottom: 16 }}>
                   <Text style={{ color: 'rgba(226, 228, 233, 0.4)', fontSize: 11 }}>Total Order Value</Text>
                   <Text style={{ color: '#C5A059', fontSize: 18, fontWeight: 'bold' }}>₹{cartSubtotal.toLocaleString()}</Text>
@@ -1280,7 +1280,6 @@ const styles = StyleSheet.create({
     height: SCREEN_WIDTH * 0.8,
     borderRadius: (SCREEN_WIDTH * 0.8) / 2,
     backgroundColor: 'rgba(197, 160, 89, 0.08)',
-    blurRadius: 90,
   },
   loaderWrapper: {
     alignItems: 'center',
